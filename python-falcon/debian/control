@@ -1,0 +1,49 @@
+Source: python-falcon
+Section: python
+Priority: optional
+Maintainer: IntelMQ Team <intelmq-team@cert.at>
+Build-Depends:
+ cython3,
+ debhelper-compat (= 11),
+ dh-python,
+ lsb-release,
+ python3-all,
+ python3-all-dev,
+ python3-coverage,
+ python3-ddt,
+ python3-jsonschema,
+ python3-mimeparse,
+ python3-msgpack,
+ python3-nose,
+ python3-pytest,
+ python3-requests,
+ python3-setuptools,
+ python3-six,
+ python3-testtools,
+ python3-ujson,
+ python3-yaml,
+Standards-Version: 4.5.1
+Homepage: http://falconframework.org
+
+Package: python3-falcon
+Architecture: any
+Depends:
+ python3-jsonschema,
+ python3-mimeparse,
+ python3-msgpack,
+ python3-six,
+ ${misc:Depends},
+ ${python3:Depends},
+ ${shlibs:Depends},
+Description: supersonic micro-framework for building cloud APIs - Python 3.x
+ Falcon is a high-performance Python framework for building cloud APIs. It
+ encourages the REST architectural style, and tries to do as little as possible
+ while remaining highly effective.
+ .
+ Unlike other Python web frameworks, Falcon won't bottleneck your API's
+ performance under highly concurrent workloads. Many frameworks max out at
+ serving simple "hello world" requests at a few thousand req/sec, while Falcon
+ can easily serve many more on the same hardware.
+ .
+ Falcon isn't very opinionated. In other words, the framework leaves a lot of
+ decisions and implementation details to you.

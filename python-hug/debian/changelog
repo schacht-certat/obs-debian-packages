@@ -1,0 +1,5 @@
+python-hug (2.6.0-1) stable; urgency=medium
+
+  * IntelMQ python3-hug package
+
+ -- Birger Schacht <schacht@cert.at>  Thu, 14 Jan 2021 13:25:20 +0100
