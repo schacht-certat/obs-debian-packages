@@ -2,7 +2,8 @@ Source: python-hug
 Maintainer: IntelMQ Team <intelmq-team@cert.at>
 Section: python
 Priority: optional
-Build-Depends: debhelper-compat (= 12),
+Build-Depends:
+ debhelper-compat (= 11),
  cython3,
  dh-python,
  python3-all,
