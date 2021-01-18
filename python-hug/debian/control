@@ -23,7 +23,7 @@ Homepage: https://github.com/hugapi/hug
 
 Package: python3-hug
 Architecture: any
-Depends: ${misc:Depends}, ${python3:Depends}, ${shlibs:Depends}
+Depends: ${misc:Depends}, ${python3:Depends}, ${shlibs:Depends}, python3-distutils
 Description: Python3 framework for HTTP and CLI APIs
  hug makes developing a Python driven API as succinct as a written definition.
  Built-in API version management, validation and documentation generation.
